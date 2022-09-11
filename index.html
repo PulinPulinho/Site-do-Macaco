@@ -24,7 +24,6 @@
         }
 
         .font {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 100px;
             position: relative;
             right: -300px;
@@ -36,23 +35,23 @@
         }
 
         h1.font2 {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             font-size: 100px;
             position: relative;
             top: -800px;
         }
 
         p.paragrafo {
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 100px;
+            font-size: 50px;
             position: relative;
             top: -1200px;
         }
 
-        body.first {
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             background-image: linear-gradient(145deg, rgb(87, 7, 216), rgb(195, 0, 255));
             background-attachment: fixed;
             height: 50%;
+            padding-bottom: 10px;
         }
 
         .parallax {
@@ -70,14 +69,24 @@
             position: relative;
             top: -800px
         }
+
+        .button {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 25px;
+            background-image: linear-gradient(145deg, rgb(87, 7, 216), rgb(195, 0, 255));
+            height: 10%;
+            width: 500px;
+            position: relative;
+            top: -10px;
+        }
     </style>
 </head>
 
 
-<body class="first">
+<body font-family='Trebuchet MS' , Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif;>
     <div class="logo"></div>
     <div class="heading"></div>
-    <h1 class="font">Teorema do macaco intankável.</h1>
+    <h1 class="font">Teorema do macaco indestrutivel.</h1>
     <div class="parallax"></div>
     <h1 class="font2"> Como Funciona</h1>
     <p class="paragrafo">O teorema do macaco infinito afirma que um macaco digitando aleatoriamente em um teclado por um
@@ -93,7 +102,11 @@
         uma sequência aleatória de letras ad infinitum. O teorema ilustra os perigos do raciocínio sobre o infinito ao
         imaginar um número muito grande mas finito, e vice versa. A idade do universo é diminuída relativamente pelo
         tempo que levaria a um macaco para obter um texto igual ao Hamlet, de modo que num sentido físico tal nunca
-        aconteceria.</p>
+        aconteceria.</br>
+
+        <a href="https://pt.wikipedia.org/wiki/Teorema_do_macaco_infinito" class="button">
+            <button class="button">Saiba mais sobre o Teorema do Macaco</button>
+        </a>
 </body>
 
 </html>
